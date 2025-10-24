@@ -16,7 +16,8 @@ jobs:
 
       # Step 2: Update the daily_update.txt file with current timestamp
       - name: Update daily_update.txt
-        run: echo "Last update: $(date -u)" > daily_update.txt
+        run: |
+          echo "Last update: $(date -u)" > daily_update.txt
 
       # Step 3: Configure Git
       - name: Configure Git
