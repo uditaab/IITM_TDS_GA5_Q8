@@ -3,6 +3,7 @@ name: Daily Commit Automation - 24ds3000072@ds.study.iitm.ac.in
 on:
   schedule:
     - cron: '30 9 * * *'  # Run daily at 09:30 UTC
+  workflow_dispatch:      # Allows manual triggering from GitHub
 
 jobs:
   daily-commit:
