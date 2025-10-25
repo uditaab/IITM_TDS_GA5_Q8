@@ -1,4 +1,4 @@
-name: 24ds3000072@ds.study.iitm.ac.in
+name: scheduled action by 24ds3000072@ds.study.iitm.ac.in ok
 
 on:
   schedule:
@@ -19,7 +19,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "GitHub Actions"
+          git config user.name "GitHub Actions 24ds3000072@ds.study.iitm.ac.in"
           git config user.email "24ds3000072@ds.study.iitm.ac.in"
 
       - name: Commit changes
