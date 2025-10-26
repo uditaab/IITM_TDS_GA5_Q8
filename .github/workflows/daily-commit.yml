@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "Last update: $(date -u)" > daily_update.txt
 
-      - name: Configure Git
+      - name: Configure Git with 24ds3000072@ds.study.iitm.ac.in
         run: |
           git config user.name "GitHub Actions 24ds3000072@ds.study.iitm.ac.in"
           git config user.email "24ds3000072@ds.study.iitm.ac.in"
